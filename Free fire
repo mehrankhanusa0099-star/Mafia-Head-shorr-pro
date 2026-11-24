@@ -1,1 +1,15 @@
+Files:
+- index.html: website app
+- manifest.webmanifest: installable web app metadata
+- sw.js: offline cache service worker
+- icon.svg: app icon
 
+To use:
+1. Upload all files together to an HTTPS static host (for example GitHub Pages or Netlify).
+2. Open the published HTTPS website in Chrome on Android.
+3. Use Chrome menu > Add to Home screen (or Install app if shown).
+
+Important:
+- Service workers and install prompts require HTTPS (localhost also works for testing).
+- This is a settings guide only. It does not hack or modify Free Fire.
+- The sensitivity numbers are suggested starting points, not guaranteed results
