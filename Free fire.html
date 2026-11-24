@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAFIA HEADSHOT GAME</title>
+<style>
+body{background:black;color:white;text-align:center;font-family:Arial;margin:0}
+h1{color:yellow;font-size:28px}
+#game{width:95%;height:400px;background:#111;position:relative;border:3px solid red;border-radius:15px;margin:auto;overflow:hidden}
+#target{width:80px;height:80px;background:red;border-radius:50%;position:absolute;top:100px;left:100px;line-height:80px;font-size:35px;box-shadow:0 0 20px red}
+button{background:red;color:white;padding:15px 30px;font-size:20px;border:none;border-radius:15px;margin-top:15px}
+a{display:block;background:#333;color:white;padding:12px;margin:15px;border-radius:10px;text-decoration:none}
+</style>
+</head>
+<body>
+<h1>🔥 MAFIA HEADSHOT 🔥</h1>
+<p>REALME NOTE 60X - PRACTICE GAME</p>
+<p id="score">SCORE: 0 | HEADSHOT: 0</p>
+<p id="time">TIME: 30</p>
+<div id="game"><div id="target" onclick="hit()">🎯</div></div>
+<button onclick="start()">▶️ GAME START</button>
+<a href="index.html">⬅️ BACK TO HOME</a>
+<script>
+let score=0,head=0,time=30,playing=false;
+function start(){score=0;head=0;time=30;playing=true;update();
+let t=setInterval(function(){time--;document.getElementById('time').innerText='TIME: '+time;
+if(time<=0){clearInterval(t);playing=false;alert('GAME OVER! SCORE: '+score+' HEADSHOT: '+head);}},1000);}
+function hit(){if(!playing){alert('Pehle START dabao!');return;}
+score+=10;head+=1;
+document.getElementById('target').style.left=Math.floor(Math.random()*250)+'px';
+document.getElementById('target').style.top=Math.floor(Math.random()*300)+'px';
+update();}
+function update(){document.getElementById('score').innerText='SCORE: '+score+' | HEADSHOT: '+head;}
+</script>
+</body>
+</html>
