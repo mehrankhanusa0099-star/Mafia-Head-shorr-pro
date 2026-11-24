@@ -1,1 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAFIA SENSITIVITY - REALME NOTE 60X</title>
+<style>
+body{background:black;color:white;text-align:center;font-family:Arial;margin:0;padding:10px}
+h1{color:yellow}
+.box{background:#1a1a1a;border:2px solid red;border-radius:15px;padding:15px;margin:12px;text-align:left}
+.box h2{color:#ff3333;margin:0 0 10px 0}
+p{font-size:18px;margin:8px 0}
+b{color:yellow;font-size:20px}
+button{background:red;color:white;padding:15px 30px;font-size:20px;border:none;border-radius:15px;margin:10px}
+a{display:block;background:#333;color:white;padding:12px;margin:15px;border-radius:10px;text-decoration:none}
+.copy{background:green}
+</style>
+</head>
+<body>
+<h1>🎯 MAFIA SENSITIVITY 🎯</h1>
+<p>REALME NOTE 60X | HEADSHOT KING SETTING</p>
 
+<div class="box"><h2>🔥 FREE FIRE SENSITIVITY</h2>
+<p>General: <b>200</b></p>
+<p>Red Dot: <b>100</b></p>
+<p>2X Scope: <b>100</b></p>
+<p>4X Scope: <b>95</b></p>
+<p>Sniper Scope: <b>80</b></p>
+<p>Free Look: <b>100</b></p>
+</div>
+
+<div class="box"><h2>📱 DPI SETTING</h2>
+<p>DPI: <b>650</b></p>
+<p>Custom DPI: <b>600 - 700</b></p>
+<p>Phone me ja kar: Settings > About > Build Number 7 baar dabao > Developer Options > Smallest Width = <b>650</b></p>
+</div>
+
+<div class="box"><h2>⚙️ GYRO / AIM</h2>
+<p>Gyro: <b>ON - 100</b></p>
+<p>Aim Precision: <b>Default</b></p>
+<p>Left Fire Button: <b>ON - Size 55</b></p>
+<p>Drag Headshot: <b>ON - Fast Flick Up</b></p>
+</div>
+
+<div class="box"><h2>💡 PRO TIP</h2>
+<p>1. Training Ground me 10 min practice karo</p>
+<p>2. Fire button ko thora upar kheencho, headshot lagega</p>
+<p>3. DPI 650 se zyada mat karna, game lag hoga</p>
+</div>
+
+<button onclick="alert('Copy ho gaya! Ab Free Fire me ja kar ye setting lagao!')">📋 COPY SETTING</button>
+<br>
+<a href="freefire.html">🎮 HEADSHOT GAME KHELO</a>
+<a href="index.html">⬅️ BACK TO HOME</a>
+</body>
+</html>
